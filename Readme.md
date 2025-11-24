@@ -35,7 +35,7 @@ This guide explains how to set up and run mutation testing (using PITest) for th
 Folder Structure
 Ensure your project directory looks exactly like this:
 
-Plaintext
+
 
 project-root/
 │
@@ -45,17 +45,19 @@ project-root/
 ├── test/
 │   └── com/example/ScientificCalculatorTest.java
 │
-├── lib/  (For JUnit)
+├── lib/
 │   └── junit-platform-console-standalone-1.13.0-M3.jar
 │
-├── pit/  (For PITest)
+├── pit/
 │   ├── pitest-1.22.0.jar
 │   ├── pitest-command-line-1.22.0.jar
 │   ├── pitest-entry-1.22.0.jar
-│   └── pitest-junit5-plugin-1.2.3.jar  <-- CRITICAL for JUnit 5 support
+│   └── pitest-junit5-plugin-1.2.3.jar
 │
-└── out/  (Generated automatically)
+└── out/
+
 Downloads
+
 If you are missing files, download them:
 
 JUnit 5 Console: Maven Central - JUnit Platform Console (Place in lib/)
