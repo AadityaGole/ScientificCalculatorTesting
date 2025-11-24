@@ -36,7 +36,15 @@ Folder Structure
 Ensure your project directory looks exactly like this:
 
 
+# Mutation Testing Project: Scientific Calculator
 
+This project implements **Mutation Testing** using **PITest** and **JUnit 5** for a Scientific Calculator application. The goal is to evaluate the quality of the test suite by ensuring it can detect artificial faults (mutants) introduced into the code.
+
+## 📂 Project Structure
+
+Ensure your directory looks exactly like this to match the commands below:
+
+```text
 project-root/
 │
 ├── src/
@@ -52,9 +60,9 @@ project-root/
 │   ├── pitest-1.22.0.jar
 │   ├── pitest-command-line-1.22.0.jar
 │   ├── pitest-entry-1.22.0.jar
-│   └── pitest-junit5-plugin-1.2.3.jar
+│   └── pitest-junit5-plugin-1.2.3.jar  <-- Essential for JUnit 5
 │
-└── out/
+└── out/  (Generated during compilation)
 
 Downloads
 
